@@ -1,0 +1,25 @@
+# Rime table
+# coding: utf-8
+#
+# 请将该文件以UTF-8编码保存为
+# Rime用户文件夹/custom_phrase.txt
+#
+# 码表各字段以制表符（Tab）分隔
+# 顺序为：文字、编码、权重（决定重码的次序、可选）
+#
+# 虽然文本码表编辑较为方便，但不适合导入大量条目
+
+中州韵输入法引擎	rime	2
+https://rime.im/	rime	1
+Rime	rime	3
+
+⌘	cmd
+⌘	command
+⌃	ctl
+⌃	control
+⌥	opt
+⌥	option
+⇧	shift
+
+又双叒叕	yyy
+又双叒叕	yzyzyz

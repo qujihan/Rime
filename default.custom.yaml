@@ -1,0 +1,35 @@
+# https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+patch:
+  schema_list:
+    - schema: jihan_fly
+  switcher/caption: "[方案]"
+  switcher/hotkeys:
+    - Control+period
+    # - Control+grave
+  switcher/save_options:
+    - full_shape
+    - ascii_punct
+  switcher/option_list_separator: '/'
+  menu/page_size: 3
+  ascii_composer/good_old_caps_lock: false
+  ascii_composer/switch_key:
+    Shift_L: noop
+    Shift_R: commit_code
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: noop
+    Eisu_toggle: clear
+
+  # 以词定字 https://github.com/BlindingDark/rime-lua-select-character
+  key_binder/select_first_character: 'bracketleft' # lua 选词快捷键，选第一个字
+  key_binder/select_last_character: 'bracketright' # lua 选词快捷键，选最后一个字
+
+  key_binder/bindings:
+    # 翻页
+    - { accept: Tab, send: Page_Down, when: composing }
+    - { accept: Shift+Tab, send: Page_Up, when: composing }
+    - { when: composing, accept: comma, send: Page_Up }
+    - { when: composing, accept: period, send: Page_Down }
+    # 选词
+    - { accept: semicolon, when: has_menu, send: 2 } # 输入时「;」二选
+    - { accept: apostrophe, when: has_menu, send: 3 } # 输入时「'」三选

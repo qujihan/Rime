@@ -1,0 +1,46 @@
+patch:
+  style:
+    display_tray_icon: false
+    inline_preedit: true
+    horizontal: true
+    font_face: "LXGW WenKai"
+    font_point: 12
+    layout:
+      border: 0
+      margin_x: 12
+      margin_y: 12
+      hilite_padding: 12
+      hilite_spacing: 3
+      spacing: 10
+      candidate_spacing: 24
+      round_corner: 0
+    color_scheme: simite
+
+
+  preset_color_schemes:
+    simite:
+      name: "simite"
+      author: "Jihan <qujihan@163.com>"
+      candidate_format: "%c\u2005%@"
+      corner_radius: 5
+      back_color: 0xFFFFFF
+      border_color: 0x000000
+      text_color: 0x000000
+      hilited_text_color: 0xFFFFFF
+      hilited_back_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x825C1A
+      candidate_text_color: 0x000000
+      comment_text_color: 0x808080
+
+
+  app_options:    
+    wezterm-gui.exe:
+      ascii_mode: true
+    code.exe:
+      ascii_mode: true
+    PowerToys.exe:
+      ascii_mode: true
+    LeagueClientUxRender.exe:
+      ascii_mode: true
+

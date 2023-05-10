@@ -1,0 +1,8 @@
+.DS_Store
+*.userdb/
+/build/
+/rime.wiki/
+/sync/
+/test/
+installation.yaml
+user.yaml
