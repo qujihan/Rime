@@ -43,4 +43,23 @@ patch:
       ascii_mode: true
     LeagueClientUxRender.exe:
       ascii_mode: true
+    msedge.exe:
+      ascii_mode: true
+    pycharm.exe:
+      ascii_mode: true
+    idea.exe:
+      ascii_mode: true
+    goland.exe:
+      ascii_mode: true
+    clion.exe:
+      ascii_mode: true
+    pycharm64.exe:
+      ascii_mode: true
+    idea64.exe:
+      ascii_mode: true
+    goland64.exe:
+      ascii_mode: true
+    clion64.exe:
+      ascii_mode: true
+
 
