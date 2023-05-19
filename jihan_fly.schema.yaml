@@ -15,19 +15,21 @@ schema:
 switches:
   - name: ascii_mode
     states: ["Z", "E"]
+    reset: 1
   - name: ascii_punct
     reset: 0
     states: [。, ．]
   - name: full_shape
     reset: 0
     states: ["半", "全"]
-
-
 engine:
   processors:
+    - lua_processor@*vim_mode
+    # 这个处理英文与中英文的切换
     - ascii_composer
+    # 与 matcher匹配 负责处理特定规则的输入码
     - recognizer
-    - lua_processor@select_character_processor
+    - lua_processor@*select_character_processor
     - key_binder
     - speller
     - selector
@@ -41,11 +43,24 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - lua_translator@*get_date
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
   filters:
     - uniquifier # 去重
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    # 这句是启用上面symbols的关键
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
+    # 开启大写锁时，就直接输入大写字母，下面这句的目的是覆盖掉默认配置
+    uppercase: ""
+
+key_binder:
+  import_preset: default
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba/
@@ -83,15 +98,6 @@ speller:
     - xform/in$/B/
     - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
-translator:
-  dictionary: extended
-  prism: jihan_fly
-  contextual_suggestions: true
-  max_homophones: 7
-
-grammar:
-  language: zh-hans-t-essay-bgw
-
 punctuator:
   import_preset: symbols
   symbols:
@@ -121,17 +127,15 @@ punctuator:
     "<": ["《", "〈", "«", "<"]
     ">": ["》", "〉", "»", ">"]
 
-key_binder:
-  import_preset: default
+translator:
+  dictionary: extended
+  prism: jihan_fly
+  contextual_suggestions: true
+  max_homophones: 7
 
-recognizer:
-  import_preset: default
-  patterns:
-    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-    # 这句是启用上面symbols的关键
-    punct: "^/([0-9]0?|[A-Za-z]+)$"
-    # 开启大写锁时，就直接输入大写字母，下面这句的目的是覆盖掉默认配置
-    uppercase: ""
+grammar:
+  language: zh-hans-t-essay-bgw
+
 
 custom_phrase:
   dictionary: ""

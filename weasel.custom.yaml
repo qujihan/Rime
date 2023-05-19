@@ -3,7 +3,7 @@ patch:
     display_tray_icon: false
     inline_preedit: true
     horizontal: true
-    font_face: "LXGW WenKai"
+    # font_face: "LXGW WenKai"
     font_point: 12
     layout:
       border: 0
@@ -43,4 +43,35 @@ patch:
       ascii_mode: true
     LeagueClientUxRender.exe:
       ascii_mode: true
-
+    msedge.exe:
+      ascii_mode: true
+    pycharm.exe:
+      ascii_mode: true
+    idea.exe:
+      ascii_mode: true
+    goland.exe:
+      ascii_mode: true
+    clion.exe:
+      ascii_mode: true
+    pycharm64.exe:
+      ascii_mode: true
+    idea64.exe:
+      ascii_mode: true
+    goland64.exe:
+      ascii_mode: true
+    clion64.exe:
+      ascii_mode: true
+    emacs.exe:
+      ascii_mode: true
+    firefox.exe:
+      ascii_mode: true
+    alacritty.exe:
+      ascii_mode: true
+    WindowsTerminal.exe:
+      ascii_mode: true
+    PowerToys.PowerLauncher.exe:
+      ascii_mode: true
+    PowerToys.exe:
+      ascii_mode: true
+    Termius.exe:
+      ascii_mode: true
