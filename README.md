@@ -14,6 +14,9 @@ Windows下使用字体：霞鹜文楷[下载地址](https://github.com/lxgw/Lxgw
 
 在`font/LXGWWenKai-Regular`有一个v1.300版本的霞鹜文楷(update at 23/05/01) 
 
+# 文档
+日后的修改可以参考[文档](https://github.com/LEOYoon-Tsaw/Rime_collections)
+
 # 致谢
 本配置大量参考了[LufsX/rime](https://github.com/LufsX/rime)
 
