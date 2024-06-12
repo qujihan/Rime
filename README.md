@@ -9,6 +9,15 @@
 
 配置：将所有文件复制到 `C:\Users\${UesrName}\AppData\Roaming\Rime`
 
+
+## Ubuntu
+```
+sudo apt install ibus-rime
+cd ~/.config/ibus
+rm -rf rime
+git clone https://github.com/qujihan/Rime.git rime
+```
+
 ### 字体下载
 Windows下使用字体：霞鹜文楷[下载地址](https://github.com/lxgw/LxgwWenKai)
 
