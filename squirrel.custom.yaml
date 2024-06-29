@@ -30,7 +30,7 @@ patch:
 
 
 
-  # 选择application下的应用,右键显示包内容,在contents下的info.plist下可以找到bundle identifier
+  # 选择application下的应用,右键显示包内容,在contents下的info.plist下可以找到bundle identifier / CFBundleIdentifier
   app_options:    
     com.apple.Spotlight:             # 聚焦搜索
         ascii_mode: true             # true默认英文,false默认中文
@@ -74,6 +74,9 @@ patch:
         ascii_mode: true
         vim_mode: true
     com.microsoft.rdc.macos:
+        ascii_mode: true
+        vim_mode: true
+    dev.zed.Zed:
         ascii_mode: true
         vim_mode: true
 
