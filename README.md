@@ -4,10 +4,14 @@
 
 配置：将所有文件复制到 `Users/${UserName}/Library/Rime`
 
+使用py脚本一键安装: `python config.py`
+
 ### Windows
 安装：[下载页面](https://github.com/rime/weasel/releases)
 
 配置：将所有文件复制到 `C:\Users\${UesrName}\AppData\Roaming\Rime`
+
+使用py脚本一键安装: `python config.py`
 
 
 ## Ubuntu
@@ -24,6 +28,7 @@ Windows下使用字体：霞鹜文楷[下载地址](https://github.com/lxgw/Lxgw
 在`font/LXGWWenKai-Regular`有一个v1.300版本的霞鹜文楷(update at 23/05/01) 
 
 # 在 Mac 下使用删除自带的 ABC 输入法
+*不建议删除*
 关机长按指纹键, 进入恢复模式, 在顶部的菜单栏中的实用工具中找到终端, 输入 csrutil disable, 如果输出下面的表示禁用成功
 `Successfully disabled System Integrity Protection. Please restart the machine for the changes to take effect. 
 `
