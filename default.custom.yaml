@@ -42,8 +42,6 @@ patch:
     - { accept: apostrophe, when: has_menu, send: 3 } # 输入时「'」三选
 
     # 切换 全/半角 英/中标点
-    # - { accept: "Control+Shift+1", toggle: ascii_punct, when: always}
-    # - { accept: "Control+Shift+2", toggle: full_shape, when: always}
     - { accept: "Control+Shift+period", toggle: ascii_punct, when: always}
     - { accept: "Control+Shift+1", toggle: full_shape, when: always}
 

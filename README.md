@@ -57,8 +57,13 @@ cp ~/Library/Preferences/com.apple.HIToolbox.plist  ~/Library/Preferences/com.ap
 # 文档
 日后的修改可以参考[文档](https://github.com/LEOYoon-Tsaw/Rime_collections)
 
+#TODO
+- 完善 symbols.yaml
+- 完善词库
+
 # 致谢
-本配置大量参考了[LufsX/rime](https://github.com/LufsX/rime)
+- 本配置大量参考了[LufsX/rime](https://github.com/LufsX/rime)
+- 词库[白霜词库](https://github.com/gaboolic/rime-frost)
 
 感谢提供优雅的字体的[Lxgw](https://github.com/lxgw)
 
