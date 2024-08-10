@@ -1,0 +1,18 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: jihan
+version: "2023-11-13"
+import_tables:
+  - dicts/8105     # 字表
+  - dicts/41448    # 大字表（按需启用）
+  - dicts/base     # 基础词库
+  - dicts/ext      # 扩展词库
+  - dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
+  - dicts/others   # 一些杂项
+  - dicts/custom   # 自定义
+
+  # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
+  # - cn_dicts/mydict
+...
