@@ -12,14 +12,14 @@ patch:
       name: "lamb"
       back_color: 0xffffff              #设置输入条的背景色，色值是按照BGR的形式16进制填写
       corner_radius: 5                  #设置输入条的圆角效果
-      border_height: 4                  #设置输入条上下宽度
+      border_height: 1                  #设置输入条上下宽度
       dborder_width: 1                  #设置输入条左右宽度
       border_color: 0x9f62e8            #输入条边框颜色，似乎在横向模式下不起作用
       border_color_width: 0             #输入条边框宽度
       candidate_format: "%c %@"         #设置每个候选词之间的间隔距离，%c代表备选的数字，%@代表候选字，可以通过输入空格的形式来调整每个候选字之间的间隔距离
       candidate_text_color: 0x333333    #候选字颜色
-      font_face: LXGW WenKai            #字体
-      font_point: 16                    #字体大小
+      font_face: HanaMinA               #字体
+      font_point: 15                    #字体大小
       text_color: 0x333333              #普通候选字的颜色，非第一候选字
       hilited_candidate_label_color: 0xffffff   #第一候选字标签颜色，也就是数字1
       hilited_text_color: 0xffffff              #第一候选字颜色
@@ -41,7 +41,7 @@ patch:
     com.microsoft.VSCode:            # Visual Studio Code
         vim_mode: true
         ascii_mode: true
-        # ascii_punct: true          # 中文状态输出英文标点(半角) 
+        ascii_punct: true            # 中文状态输出英文标点(半角) 
     com.tencent.Lemon:               # 腾讯柠檬
         ascii_mode: true
     com.apple.dt.Xcode:              # Xcode

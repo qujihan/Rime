@@ -48,9 +48,11 @@ cp ~/Library/Preferences/com.apple.HIToolbox.plist  ~/Library/Preferences/com.ap
 日后的修改可以参考[文档](https://github.com/LEOYoon-Tsaw/Rime_collections)
 
 # 致谢
-配置参考: [LufsX/rime](https://github.com/LufsX/rime)
-词库参考: [雾凇拼音](https://github.com/iDvel/rime-ice)
-字体: [Lxgw](https://github.com/lxgw)
+- 配置参考: [LufsX/rime](https://github.com/LufsX/rime)
+- 词库参考: [雾凇拼音](https://github.com/iDvel/rime-ice)
+- 字体: 
+    - [Lxgw](https://github.com/lxgw)
+    - [花园明朝字体](https://glyphwiki.org/hanazono/)
 
 
 
