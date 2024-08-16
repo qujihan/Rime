@@ -1,0 +1,38 @@
+{
+    "dicts_zh": [
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/41448.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/8105.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/base.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/ext.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/others.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts/tencent.dict.yaml"
+    ],
+    "dicts_cn_cell": [
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/animal.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/chess.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/chess2.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/composite.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/computer.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/exthot.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/food.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/game.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/geography.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/history.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/idiom.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/industry_product.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/inputmethod.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/literature.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/media.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/medication.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/music.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/name.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/name2.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/place.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/shulihua.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/cn_dicts_cell/sport.dict.yaml"
+    ],
+    "dicts_en": [
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/en_dicts/en.dict.yaml",
+        "https://raw.githubusercontent.com/iDvel/rime-ice/main/en_dicts/en_ext.dict.yaml"
+    ]
+}

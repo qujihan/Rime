@@ -49,7 +49,9 @@ cp ~/Library/Preferences/com.apple.HIToolbox.plist  ~/Library/Preferences/com.ap
 
 # 致谢
 - 配置参考: [LufsX/rime](https://github.com/LufsX/rime)
-- 词库参考: [雾凇拼音](https://github.com/iDvel/rime-ice)
+- 词库参考: 
+    - [雾凇拼音 rime-ice](https://github.com/iDvel/rime-ice)
+    - [白霜词库 rime-frost](https://github.com/gaboolic/rime-frost)
 - 字体: 
     - [Lxgw](https://github.com/lxgw)
     - [花园明朝字体](https://glyphwiki.org/hanazono/)

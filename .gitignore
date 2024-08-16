@@ -6,3 +6,5 @@
 /test/
 installation.yaml
 user.yaml
+
+dicts/dicts*/
