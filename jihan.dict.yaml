@@ -1,0 +1,44 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: jihan
+version: "2023-11-13"
+import_tables:
+  - dicts/dicts_cn/8105     # 字表
+  - dicts/dicts_cn/41448    # 大字表（按需启用）
+  - dicts/dicts_cn/base     # 基础词库
+  - dicts/dicts_cn/ext      # 扩展词库
+  - dicts/dicts_cn/tencent  # 腾讯词向量（大词库，部署时间较长）
+  - dicts/dicts_cn/others   # 一些杂项
+
+  - dicts/dicts_cn_cell/animal
+  - dicts/dicts_cn_cell/chess
+  - dicts/dicts_cn_cell/chess2
+  - dicts/dicts_cn_cell/composite
+  - dicts/dicts_cn_cell/computer
+  - dicts/dicts_cn_cell/exthot
+  - dicts/dicts_cn_cell/food
+  - dicts/dicts_cn_cell/game
+  - dicts/dicts_cn_cell/geography
+  - dicts/dicts_cn_cell/history
+  - dicts/dicts_cn_cell/idiom
+  - dicts/dicts_cn_cell/industry_product
+  - dicts/dicts_cn_cell/inputmethod
+  - dicts/dicts_cn_cell/literature
+  - dicts/dicts_cn_cell/media
+  - dicts/dicts_cn_cell/medication
+  - dicts/dicts_cn_cell/music
+  - dicts/dicts_cn_cell/name
+  - dicts/dicts_cn_cell/name2
+  - dicts/dicts_cn_cell/place
+  - dicts/dicts_cn_cell/shulihua
+  - dicts/dicts_cn_cell/sport
+
+  - dicts/dicts_en/en
+  - dicts/dicts_en/en_ext
+
+  - dicts/custom   # 自定义
+  # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
+  # - cn_dicts/mydict
+...

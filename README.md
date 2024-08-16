@@ -1,5 +1,4 @@
 # 如何安装与配置
-使用字体: 霞鹜文楷[下载地址](https://github.com/lxgw/LxgwWenKai)
 ### Mac
 安装：`brew install --cask squirrel`
 
@@ -10,7 +9,7 @@
 
 配置：将所有文件复制到 `C:\Users\${UesrName}\AppData\Roaming\Rime`
 
-## Ubuntu
+### Ubuntu
 ```
 sudo apt install ibus-rime
 cd ~/.config/ibus
@@ -47,7 +46,7 @@ cp ~/Library/Preferences/com.apple.HIToolbox.plist  ~/Library/Preferences/com.ap
 # 文档
 日后的修改可以参考[文档](https://github.com/LEOYoon-Tsaw/Rime_collections)
 
-# 致谢
+# 感谢
 - 配置参考: [LufsX/rime](https://github.com/LufsX/rime)
 - 词库参考: 
     - [雾凇拼音 rime-ice](https://github.com/iDvel/rime-ice)
