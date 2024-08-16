@@ -2,6 +2,7 @@
 
 import os
 import sys
+import time
 import json
 import argparse
 import requests
@@ -18,7 +19,8 @@ try:
     tqdm_installed = True
 except ImportError:
     tqdm_installed = False
-    print("tqdm not installed, will not show progress bar.")
+    print(f"{color_red}tqdm not installed, will not show progress bar.{color_reset}")
+    time.sleep(3)
 
 
 def parse_config(config_path):
