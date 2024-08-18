@@ -18,7 +18,7 @@ patch:
       border_color_width: 0             #输入条边框宽度
       candidate_format: "%c %@"         #设置每个候选词之间的间隔距离，%c代表备选的数字，%@代表候选字，可以通过输入空格的形式来调整每个候选字之间的间隔距离
       candidate_text_color: 0x333333    #候选字颜色
-      font_face: HanaMinA               #字体
+      font_face: PingFang SC, HanaMinB  #字体
       font_point: 15                    #字体大小
       text_color: 0x333333              #普通候选字的颜色，非第一候选字
       hilited_candidate_label_color: 0xffffff   #第一候选字标签颜色，也就是数字1
