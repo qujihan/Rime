@@ -31,50 +31,45 @@ patch:
 
   # 选择application下的应用,右键显示包内容,在contents下的info.plist下可以找到bundle identifier
   app_options:    
-    com.apple.Spotlight:             # 聚焦搜索
-        ascii_mode: true             # true默认英文,false默认中文
-    com.github.wez.wezterm:
-        vim_mode: true
-        ascii_mode: true
-    com.apple.Terminal:              # 终端
-        ascii_mode: true
-    com.microsoft.VSCode:            # Visual Studio Code
-        vim_mode: true
-        ascii_mode: true
-        ascii_punct: true            # 中文状态输出英文标点(半角) 
-    com.tencent.Lemon:               # 腾讯柠檬
-        ascii_mode: true
-    com.apple.dt.Xcode:              # Xcode
-        ascii_mode: true
-    com.nektony.App-Cleaner-SII:     # App Cleaner & Uninstaller
-        ascii_mode: true
-    md.obsidian:
-        ascii_mode: true
-        vim_mode: true
-    com.jetbrains.intellij:
-        ascii_mode: true
-        vim_mode: true
-    com.jetbrains.pycharm:
-        ascii_mode: true
-        vim_mode: true
-    com.jetbrains.CLion:
-        ascii_mode: true
-        vim_mode: true
-    com.jetbrains.goland:
-        ascii_mode: true
-        vim_mode: true
-    com.jetbrains.intellij:
-        ascii_mode: true
-        vim_mode: true
-    com.termius.mac:
-        ascii_mode: true
-        vim_mode: true
-    org.alacritty:
-        ascii_mode: true
-        vim_mode: true
-    com.microsoft.rdc.macos:
-        ascii_mode: true
-        vim_mode: true
+    # IM
     com.tencent.xinWeChat:
         ascii_mode: false
-
+    com.electron.lark:
+        ascii_mode: false
+    com.tencent.WeWorkMac:
+        ascii_mode: false
+    # Editor
+    com.apple.dt.Xcode:
+        vim_mode: true
+        ascii_punct: true            # 中文状态输出英文标点(半角) 
+    md.obsidian:
+        vim_mode: true
+        ascii_punct: true
+    com.jetbrains.intellij:
+        vim_mode: true
+        ascii_punct: true
+    com.jetbrains.pycharm:
+        vim_mode: true
+        ascii_punct: true
+    com.jetbrains.CLion:
+        vim_mode: true
+        ascii_punct: true
+    com.jetbrains.goland:
+        vim_mode: true
+        ascii_punct: true
+    com.jetbrains.intellij:
+        vim_mode: true
+        ascii_punct: true
+    com.microsoft.VSCode:
+        vim_mode: true
+        ascii_punct: true
+    # Terminal
+    com.github.wez.wezterm:
+        vim_mode: true
+        ascii_punct: true
+    com.termius.mac:
+        vim_mode: true
+        ascii_punct: true
+    org.alacritty:
+        vim_mode: true
+        ascii_punct: true
