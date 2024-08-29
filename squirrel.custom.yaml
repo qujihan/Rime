@@ -75,4 +75,6 @@ patch:
     com.microsoft.rdc.macos:
         ascii_mode: true
         vim_mode: true
+    com.tencent.xinWeChat:
+        ascii_mode: false
 
