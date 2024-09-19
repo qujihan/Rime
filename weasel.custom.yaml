@@ -75,3 +75,9 @@ patch:
       ascii_mode: true
     Termius.exe:
       ascii_mode: true
+
+  # vim's keymap
+  key_binder/bindings:
+    - { accept: "Control+j", send: Page_Down , when: composing }
+    - { accept: "Control+k", send: Page_Up , when: composing }
+    - { accept: "Control+bracketleft", send: Escape, when: composing}

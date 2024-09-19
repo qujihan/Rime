@@ -4,7 +4,7 @@ patch:
     - schema: jihan
   switcher/caption: "[方案]"
   switcher/hotkeys:
-    # - Control+period
+    - Control+period
   switcher/save_options:
     - full_shape
     - ascii_punct
@@ -22,7 +22,6 @@ patch:
   # 以词定字 https://github.com/BlindingDark/rime-lua-select-character
   key_binder/select_first_character: 'bracketleft' # lua 选词快捷键，选第一个字
   key_binder/select_last_character: 'bracketright' # lua 选词快捷键，选最后一个字
-
   key_binder/bindings:
     - { when: composing, accept: Shift+Tab, send: Page_Up }
     - { when: composing, accept: Tab, send: Left }
@@ -31,16 +30,9 @@ patch:
     - { accept: period, send: Page_Down, when: composing }
     - { accept: Tab, send: Down, when: composing}
     - { accept: "Shift+Tab", send: Up, when: composing}
-
-    # vim's keymap
-    - { accept: "Control+j", send: Page_Down , when: composing }
-    - { accept: "Control+k", send: Page_Up , when: composing }
-    - { accept: "Control+bracketleft", send: Escape, when: composing}
-
     # 选词
     - { accept: semicolon, when: has_menu, send: 2 } # 输入时「;」二选
     - { accept: apostrophe, when: has_menu, send: 3 } # 输入时「'」三选
-
     # 切换 全/半角 英/中标点
     # - { accept: "Control+Shift+1", toggle: ascii_punct, when: always}
     # - { accept: "Control+Shift+2", toggle: full_shape, when: always}
