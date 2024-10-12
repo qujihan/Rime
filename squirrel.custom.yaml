@@ -41,28 +41,28 @@ patch:
     # Editor
     com.apple.dt.Xcode:
         vim_mode: true
-        ascii_punct: true            # 中文状态输出英文标点(半角) 
+        # ascii_punct: true            # 中文状态输出英文标点(半角) 
     md.obsidian:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     com.jetbrains.intellij:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     com.jetbrains.pycharm:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     com.jetbrains.CLion:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     com.jetbrains.goland:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     com.jetbrains.intellij:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     com.microsoft.VSCode:
         vim_mode: true
-        ascii_punct: true
+        # ascii_punct: true
     # Terminal
     com.github.wez.wezterm:
         vim_mode: true
