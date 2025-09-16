@@ -2,6 +2,12 @@
 ### Mac
 安装：`brew install --cask squirrel`
 
+```shell
+git clone git@github.com:qujihan/Rime.git ~/Library/Rime
+cd ~/Library/Rime/dicts
+pip install requests; python download.py
+```
+
 配置：将所有文件复制到 `Users/${UserName}/Library/Rime`
 
 ### Windows

@@ -1,5 +1,9 @@
-font:
-	python get_dicts.py --from dicts.json	
+.PHONY: all
 
-clean:
-	/bin/rm -rf *.userdb user.yaml build/ installation.yaml dicts/*.yaml
+all: dict
+
+dict:
+	pip install requests
+	cd dicts
+	python download.py
+	cd -
