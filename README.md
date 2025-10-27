@@ -15,6 +15,11 @@ pip install requests; python download.py
 
 配置：将所有文件复制到 `C:\Users\${UesrName}\AppData\Roaming\Rime`
 
+```bash
+pip install requests tqdm
+python dicts/download.py
+```
+
 ### Ubuntu
 ```
 sudo apt install ibus-rime
