@@ -73,3 +73,7 @@ patch:
     org.alacritty:
         vim_mode: true
         ascii_punct: true
+    dev.zed.Zed:
+        vim_mode: true
+        ascii_punct: true
+
