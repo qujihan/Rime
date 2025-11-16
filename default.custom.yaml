@@ -2,13 +2,13 @@
 patch:
   schema_list:
     - schema: jihan
-  switcher/caption: "[方案]"
-  switcher/hotkeys:
+  switches/caption: "[方案]"
+  switches/hotkeys:
     - Control+period
-  switcher/save_options:
+  switches/save_options:
     - full_shape
     - ascii_punct
-  switcher/option_list_separator: '/'
+  switches/option_list_separator: '/'
   menu/page_size: 3
   ascii_composer/good_old_caps_lock: false
   ascii_composer/switch_key:
